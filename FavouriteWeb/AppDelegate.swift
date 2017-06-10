@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FavouriteWeb
 //
-//  Created by Marco Agovino on 10.06.17.
-//  Copyright © 2017 Marco Agovino. All rights reserved.
+//  Created by Line Stettler & Marco Agovino on 10.06.17.
+//  Copyright © 2017 Stettler & Agovino. All rights reserved.
 //
 
 import UIKit
@@ -13,6 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // Initialisieren und ArrayResource Instanz erstellen
+    var urlResource: UrlResource = ArrayResource()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
