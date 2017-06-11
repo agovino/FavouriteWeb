@@ -17,7 +17,7 @@ class WebViewController: UIViewController {
     override func loadView() {
         super.loadView()
         
-        // url holen
+        // URL holen
         guard  let superUrl = superUrl else {
             return
         }
